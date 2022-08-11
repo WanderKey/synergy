@@ -1,0 +1,84 @@
+.pageIdentify {
+  max-width: 100%;
+  padding: 20px;
+  background-color: #141d26ed;
+  position: sticky;
+  top: 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  z-index: 999;
+}
+
+.mainContent {
+  width: 90%;
+  padding: 20px;
+  margin: auto;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-items: center;
+}
+
+.post {
+  background-color: #1da1f2;
+  padding: 8px 20px;
+  border-radius: 1000px;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+
+.input-box {
+  display: flex;
+}
+
+.profilepic-large {
+  border-radius: 20%;
+  width: 150px;
+  height: 150px;
+}
+
+.fileList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid rgb(63, 63, 63);
+}
+
+.title-box {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.title {
+  color: #7899e7;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.choose-file {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  gap: 30px;
+}
+
+.fileName {
+  color: aliceblue;
+  display: flex;
+  font-style: unset;
+}

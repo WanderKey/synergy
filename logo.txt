@@ -1,0 +1,75 @@
+--2022年7月13日
+--窗口大小调整
+.sidebar 20%
+.rightbar 30%
+.mainWindow 50%
+
+--修改登录界面图标
+APP.js
+import Logo from "./images/rubick";
+ <img src={mylogo} alt="" width="72" height="72"></img>
+
+--修改左界面
+sibebar.js
+---添加logo
+  const mylogo = Logo;
+---修改菜单名称
+
+--修改退出界面图标
+---添加样式
+.menuItems:hover{
+  cursor:pointer;
+  background-color: #282828;
+}
+
+.menuItems {
+  display: flex;
+  justify-content: start;
+  gap: 14px;
+  margin-top: 20px;
+  align-items: center;
+  font-weight: 600;
+  font-size: 20px;
+  padding:10px;
+  border-radius: 1000px;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+APP.js
+          <div
+              className="logout"
+              onClick={() => {
+                Moralis.User.logOut().then(() => {
+                  window.location.reload();
+                });
+              }}
+            >
+              <div className="menuItems">
+              <Icon fill="#ffffff" size={33} svg="list" />
+                退出
+              </div>
+
+
+
+--给rightbar 添加留言板
+
+--给defaultImgs添加图片
+
+
+--7.15优化profile.js代码结构
+
+
+
+
+
+
+0x5C1EDbfbcd63B1f2a7Ffa5864CF238936063e5D9
+
+d230549088b76072e005c9b15f43d223eb9df41c321644c4c8c4fe3d13a5672e
+
+
+0x9E589E46C530abC67a0791E2F01375DF9F3F95Ef
+65054ad868d96658dc41af19d4e25deb124b265b9901b361123a287c5c1793e5
+
+

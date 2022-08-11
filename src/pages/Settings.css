@@ -1,0 +1,92 @@
+.settingsPage {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.save {
+    background-color: #1DA1F2;
+    padding: 10px;
+    border-radius: 1000px;
+    color: white;
+    font-weight: 600;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.save:hover{
+    cursor:pointer;
+}
+
+.title {
+    color:#7899e7;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+.inputBox {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 50%;
+}
+.inputBoxs{
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    width: 100%;
+}
+
+.profilepic-large {
+    border-radius: 20%;
+    width: 150px;
+    height: 150px;
+}
+.accountBox {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(63, 63, 63) ;
+    width: 100%;
+    gap: 22px;
+    padding-bottom: 20px;
+}
+
+.editBox {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.addressText {
+    color: white;
+    font-size: 18px;
+}
+
+.btnBox {
+    width: 50%;
+    align-items: center;
+}
+
+.input-title {
+    color:#f3f3f3;
+    padding-left: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.input-box-text {
+    align-items: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.text-italic {
+    color:gray;
+    padding-left: 8px;
+    font-size: 15px;
+    font-style: italic;
+}
